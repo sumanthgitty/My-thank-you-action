@@ -1,0 +1,16 @@
+{
+  "name": "my-thank-you-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/sumanthgitty/My-thank-you-action.git)"
+  },
+  "author": "sumanthgitty",
+  "license": "MIT",
+  "description": ""
+}
