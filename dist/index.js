@@ -31826,7 +31826,7 @@ async function run() {
             throw new Error('This action is intended to run on pull_request events only.');
         }
 
-        await octokit.issues.createComment({
+        await octokit.rest.issues.createComment({
             owner: sumanthgitty,
             repo: My-thank-you-action, // Correctly specifying the repository name
             issue_number: pull_request.number,
