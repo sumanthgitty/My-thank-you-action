@@ -9,7 +9,7 @@ async function run() {
     const { pull_request } = context.payload;
 
     await octokit.issues.createComment({
-        ...context.repo,
+        owner: "sumanthgitty",
         issue_number: pull_request.number,
         body: 'Thank you for submitting a pull request! we will review it as soon as we can'
     })
