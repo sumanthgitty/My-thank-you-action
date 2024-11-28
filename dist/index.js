@@ -31827,8 +31827,7 @@ async function run() {
         }
 
         await octokit.rest.issues.createComment({
-            owner: sumanthgitty,
-            repo: My-thank-you-action, // Correctly specifying the repository name
+            ...context.repo,
             issue_number: pull_request.number,
             body: 'Thank you for submitting a pull request! We will review it as soon as we can.',
         });
