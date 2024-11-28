@@ -6,9 +6,6 @@ inputs:
   GITHUB_TOKEN:
     description: 'github token'
     required: true
-  TENOR_TOKEN:
-    description: 'tenor token'
-    required: true
   
 runs:
   using: 'node12'

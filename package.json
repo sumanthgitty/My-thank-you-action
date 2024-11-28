@@ -12,5 +12,10 @@
   },
   "author": "sumanthgitty",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "@vercel/ncc": "^0.38.3"
+  }
 }
